@@ -9,8 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        project01: resolve(__dirname, 'project01/index.html'),
-        project02: resolve(__dirname, 'project02/index.html'),
+        project01: resolve(__dirname, 'project01', 'index.html'),
+        project02: resolve(__dirname, 'project02', '/index.html'),
       },
     },
   },
