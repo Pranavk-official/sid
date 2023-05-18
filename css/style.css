@@ -390,6 +390,12 @@ header {
     text-align: center;    
 }
 
+.my-projects {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    text-align: center;    
+}
+
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
