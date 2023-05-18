@@ -4,8 +4,6 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
-	outDir,
-	emptyOutDir: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
