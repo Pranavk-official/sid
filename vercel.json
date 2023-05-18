@@ -1,12 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/project.html",
-      "destination": "/project.html"
-    },
-    {
-      "source": "/project-02.html",
-      "destination": "/project-02.html"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
